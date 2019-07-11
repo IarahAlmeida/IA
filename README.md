@@ -8,7 +8,7 @@ Repositório destinado ao desenvolvimento do trabalho final de Inteligência Art
 - David Walter Jansen
 
 ### Descrição do trabalho
-O [PHM Society Conference Data Challenge de 2010](http://www.phmsociety.org/competition/phm/10) foi um desafio focado na estimação da RUL (do inglês, *Remaining Useful Life*) para fresas de 3 cortes de uma fresadora CNC de alta velocidade, utilizando dados de dinamômetro, acelerômetro e emissão acústica. Neste trabalho, pretendemos desenvolver, para a base de dados disponibilizada, um método baseado em árvore de decisão para a seleção de características e, posteriormente, um método baseado em sistemas nebulosos para realizar o prognóstico e estimativa da RUL.
+O [PHM Society Conference Data Challenge de 2010](http://www.phmsociety.org/competition/phm/10) foi um desafio focado na estimação da RUL (do inglês, *Remaining Useful Life*) para fresas de 3 cortes de uma fresadora CNC de alta velocidade, utilizando dados de dinamômetro, acelerômetro e emissão acústica. Neste trabalho, pretendemos desenvolver, para a base de dados disponibilizada, um método baseado em árvore de decisão para a seleção de características e, posteriormente, um método baseado em rede neural e ARMA para realizar o prognóstico e estimativa da RUL.
 
 ### Base de dados
 O conjunto de dados é constituído de 6 experimentos de fresas de 3 cortes, chamados c1, c2, ..., c6. Destes, c1, c4 e c6 são dados de treinamento, e c2, c3 e c5 são dados de teste. Para cada um desses experimentos foram disponibilizados dados de 315 cortes, mas o nível de desgaste foi disponibilizado apenas para os conjuntos de treinamento. Para cada conjunto de treinamento há um arquivo de desgaste que lista o desgaste da fresa para cada um de seus 3 cortes (*flute*).
